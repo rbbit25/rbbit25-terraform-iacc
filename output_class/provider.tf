@@ -54,7 +54,7 @@ resource "aws_security_group" "allow_tls" {
 
 // Creates Route53
 resource "aws_route53_record" "www" {
-  zone_id = "Z01131383UY10PQUY6PSI"
+  zone_id = "My Domain Zone ID"
   name    = "httpd.safedevops.com"
   type    = "A"
   ttl     = "300"
